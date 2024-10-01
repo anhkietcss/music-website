@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang web tương tự Spotify</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #121212;
+          color: #ffffff;
+      }
+      header {
+          background-color: #1db954;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      .logo {
+          font-size: 24px;
+          font-weight: bold;
+      }
+      nav ul {
+          list-style-type: none;
+          display: flex;
+          gap: 20px;
+      }
+      nav a {
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      main {
+          padding: 20px;
+      }
+      section {
+          margin-bottom: 40px;
+      }
+      .playlist {
+          background-color: #282828;
+          padding: 15px;
+          border-radius: 5px;
+          margin-top: 10px;
+      }
+      footer {
+          text-align: center;
+          padding: 20px;
+          background-color: #1db954;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+      }
+      input[type="text"] {
+          width: 100%;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          margin-top: 10px;
+      }
+  </style>
+</head>
+<body>
+  <header>
+      <div class="logo">Mp3sharing</div>
+      <nav>
+          <ul>
+              <li><a href="#trang-chu">Trang Chủ</a></li>
+              <li><a href="#thuc-don">Thư Viện</a></li>
+              <li><a href="#tim-kiem">Tìm Kiếm</a></li>
+              <li><a href="#dang-nhap">Đăng Nhập</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <main>
+      <section id="trang-chu">
+          <h1>Chào mừng đến với Spotify Clone</h1>
+          <p>Nghe nhạc yêu thích của bạn mọi lúc, mọi nơi!</p>
+      </section>
+
+      <section id="thuc-don">
+          <h2>Thư Viện Nhạc</h2>
+          <div class="playlist">
+              <h3>Playlist 1</h3>
+              <p>Mô tả playlist 1.</p>
+          </div>
+          <div class="playlist">
+              <h3>Playlist 2</h3>
+              <p>Mô tả playlist 2.</p>
+          </div>
+      </section>
+
+      <section id="tim-kiem">
+          <h2>Tìm Kiếm</h2>
+          <input type="text" placeholder="Tìm kiếm bài hát, nghệ sĩ...">
+      </section>
+  </main>      
+
+  <footer>
+      <p>© 2024 Mp3sharing. Tất cả các quyền được bảo lưu.</p>
+  </footer>
+</body>
+</html>
+
+
